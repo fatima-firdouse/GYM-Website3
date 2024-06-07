@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <style>
+        * {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url('https://media.istockphoto.com/id/1195254247/photo/interior-of-new-light-modern-gym-workout-in-green-colors-with-yellow-sport-equipment-equipment.jpg?s=612x612&w=is&k=20&c=9JAZUkZzZUkNXw_4HkJnZNkCFKUagqP6T5SO8dg5GTM=');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            flex-direction: column;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #65CCB8;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Calibri, sans-serif;
+        }
+        .navbar a.logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+        }
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        .navbar ul li a {
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .navbar button {
+            background-color: #3B945E;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .navbar button a {
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .navbar button:hover {
+            background-color: #57BA98;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 500px;
+        }
+        h2 {
+            font-family: cursive;
+            color: #65CCB8;
+            margin-bottom: 20px;
+        }
+        label {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="time"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #3B945E;
+            font-family: cursive;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: #57BA98;
+        }
+    </style>
+</head>
+<body><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <nav class="navbar">
+        <a href="index.html" class="logo">POWERFIT GYM</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><button><a href="booknow.html">Book Now</a></button></li>
+        </ul>
+    </nav>
+    <form action="booknow.html" method="post">
+        <h2>POWERFIT GYM</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+        
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male"> Male
+        <input type="radio" id="female" name="gender" value="Female"> Female
+        
+        <h2>--SELECT TRAINING CATEGORY--</h2>
+        <input type="radio" id="pilates" name="training_category" value="Pilates"> Pilates<br>
+        <input type="radio" id="yoga" name="training_category" value="Yoga"> Yoga<br>
+        <input type="radio" id="barre" name="training_category" value="Barre"> Barre<br>
+        <input type="radio" id="cardio" name="training_category" value="Cardio"> Cardio<br>
+        <input type="radio" id="boxing" name="training_category" value="Boxing"> Boxing<br>
+        <input type="radio" id="dance_cardio" name="training_category" value="Dance Cardio"> Dance Cardio<br><br>
+        
+        <label for="joining_date">Joining Date:</label>
+        <input type="date" id="joining_date" name="joining_date">
+        
+        <label for="time">Classes Timing:</label>
+        <input type="time" id="time" name="time">
+        
+        <label for="comment">Comments:</label>
+        <textarea id="comment" name="comment" cols="30" rows="5" placeholder="Type your comment"></textarea>
+        <button><a href="thankyou.html">Submit
+        </a></button>
+        
+    </form>
+</body>
+</html>
