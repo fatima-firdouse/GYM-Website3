@@ -29,7 +29,7 @@ Built with **HTML, CSS, and JavaScript**, this project provides a sleek design w
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 
 ---
 
