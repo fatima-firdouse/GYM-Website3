@@ -1,7 +1,7 @@
 # 🏋️‍♂️ GYM Website
 
-A modern, responsive **Gym & Fitness Website** designed to attract, engage, and motivate visitors.  
-Built with **HTML, CSS, and JavaScript**, this project provides a sleek design with smooth interactions, perfect for showcasing fitness services.
+- A modern, responsive **Gym & Fitness Website** designed to attract, engage, and motivate visitors.  
+- Built with **HTML, CSS, and JavaScript**, this project provides a sleek design with smooth interactions, perfect for showcasing fitness services.
 
 ---
 
@@ -16,13 +16,14 @@ Built with **HTML, CSS, and JavaScript**, this project provides a sleek design w
 ---
 
 ## 📂 Project Structure
-- │── index.html # Main HTML file
-- │── style.css # Stylesheet for design
-- │── script.js # JavaScript for interactivity
-- │── images/ # Images used in the website
+```plaintext
+GYM-Website/
+│── index.html # Main HTML file
+│── style.css # Stylesheet for design
+│── script.js # JavaScript for interactivity
+│── images/ # Images used in the website
 
----
-
+```
 ---
 
 ## 🛠️ Technologies Used
@@ -40,4 +41,4 @@ Built with **HTML, CSS, and JavaScript**, this project provides a sleek design w
    git clone https://github.com/fatima-firdouse/GYM-Website3.git
 ---
 ## 💼 Author
-- Fatima Firdouse
+- Made with ❤️ by Fatima Firdouse
